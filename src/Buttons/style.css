@@ -1,0 +1,28 @@
+.button {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button__section {
+    background: transparent;
+    color: hsl(180, 100%, 25%);
+    border: none;
+    margin: auto;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.button__section:hover {
+    color: hsl(180, 79%, 41%);
+}
+
+.button__section:active {
+    border: 2px solid hsl(0, 0%, 0%);
+    border-radius: 5px;
+}
+
+.button__section:disabled {
+    color: hsl(0, 0%, 80%)
+    /*border: none;
+    cursor: not-allowed;*/
+}

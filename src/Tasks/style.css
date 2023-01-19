@@ -1,0 +1,57 @@
+.task {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.task__item {
+    display:grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 10px;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.task__item--hidden {
+    display: none;
+}
+
+.task__content--done {
+    text-decoration: line-through;
+}
+
+.task__button {
+    color: hsl(0, 0%, 100%);
+    width: 30px;
+    height: 30px;
+    border: none;
+    padding: 0;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.task__button--done {
+    background-color: hsl(120, 74%, 30%);
+}
+
+.task__button--done:hover {
+    background-color: hsl(120, 67%, 40%);
+}
+
+.task__button--done:active {
+    border: 2px solid hsl(0, 0%, 0%);
+}
+
+.task__button--remove {
+    background-color: hsl(0, 80%, 55%);
+}
+
+.task__button--remove:hover {
+    background-color: hsl(0, 84%, 70%);
+}
+
+.task__button--remove:active {
+    background-color: hsl(0, 95%, 30%);
+    border: 2px solid hsl(0, 0%, 0%);
+}
