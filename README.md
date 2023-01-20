@@ -1,6 +1,6 @@
 # Task list
 
-![ToDoList GIF]([images/videoToDoList7.gif](https://github.com/KarolinaJ33/to-do-list-react/blob/962fc3f8bb6d26c26ae3cbabd61078210fa0d249/public/imagies/videoToDoList7.gif))
+![ToDoList GIF](public/imagies/videoToDoList7.gif)
 
 # Enjoy
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
