@@ -1,4 +1,5 @@
 # Task list
+![Task list](public/OG.ico)
 
 ![ToDoList GIF](public/imagies/videoToDoList7.gif)
 
