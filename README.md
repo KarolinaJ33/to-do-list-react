@@ -10,6 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Description
 This project was bootstrapped with Create React App.
+
 I have created a simply to do list. You can add tasks, mark as completed and remove from the list. You can also mark as complete all the tasks by choosing 'Ukończ wszystkie'. After pressing 'Ukryj ukończone' selected tasks will disappear from the list.
 
 # Technologies used
