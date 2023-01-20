@@ -22,7 +22,5 @@
 }
 
 .button__section:disabled {
-    color: hsl(0, 0%, 80%)
-    /*border: none;
-    cursor: not-allowed;*/
+    color: hsl(0, 0%, 80%);
 }
