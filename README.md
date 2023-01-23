@@ -1,6 +1,11 @@
 # Task list
 ![Task list](public/OG.ico)
 
+### 
+- adding tasks
+- removing
+- marking as done
+
 ![ToDoList GIF](public/imagies/videoToDoList7.gif)
 
 # Enjoy
@@ -18,7 +23,23 @@ After pressing 'Ukryj ukończone' selected tasks will disappear from the list.
 - React.js
 - HTML
 - CSS in BEM Convention
+- Grid
+- Flexbox
+- Transution
+- Transform
+- @media queries
+- Pseudo classes
 - JavaScript
+- Arrow functions
+- Callbacks
+- Objects
+- Arrays
+- Immutability
+- React
+- Node
+- JSX
+- Webpack
+- Babel
 
 ## Available Scripts
 
