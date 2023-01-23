@@ -1,7 +1,12 @@
 # Task list
 ![Task list](public/OG.ico)
 
-![ToDoList GIF](public/imagies/videoToDoList7.gif)
+### 
+- adding tasks
+- removing
+- marking as done
+
+![ToDoList GIF](public/images/videoToDoList7.gif)
 
 # Enjoy
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -18,7 +23,23 @@ After pressing 'Ukryj ukończone' selected tasks will disappear from the list.
 - React.js
 - HTML
 - CSS in BEM Convention
+- Grid
+- Flexbox
+- Transution
+- Transform
+- @media queries
+- Pseudo classes
 - JavaScript
+- Arrow functions
+- Callbacks
+- Objects
+- Arrays
+- Immutability
+- React
+- Node
+- JSX
+- Webpack
+- Babel
 
 ## Available Scripts
 
