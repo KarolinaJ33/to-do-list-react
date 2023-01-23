@@ -3,7 +3,7 @@
     flex-wrap: wrap;
 }
 
-.buttons__section {
+.buttons__button {
     background: transparent;
     color: hsl(180, 100%, 25%);
     border: none;
@@ -12,15 +12,15 @@
     transition: 1s;
 }
 
-.buttons__section:hover {
+.buttons__button:hover {
     color: hsl(180, 79%, 41%);
 }
 
-.buttons__section:active {
+.buttons__button:active {
     border: 2px solid hsl(0, 0%, 0%);
     border-radius: 5px;
 }
 
-.buttons__section:disabled {
+.buttons__button:disabled {
     color: hsl(0, 0%, 80%);
 }
