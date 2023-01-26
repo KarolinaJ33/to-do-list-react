@@ -25,7 +25,7 @@ After pressing 'Ukryj ukończone' selected tasks will disappear from the list.
 - CSS in BEM Convention
 - Grid
 - Flexbox
-- Transution
+- Transition
 - Transform
 - @media queries
 - Pseudo classes
