@@ -36,6 +36,5 @@
 }
 
 .form__button:active {
-    background-color: hsl(180, 81%, 35%);
-    text-decoration: underline solid hsl(180, 98%, 25%);
+    background: hsl(180, 81%, 35%);
 }
