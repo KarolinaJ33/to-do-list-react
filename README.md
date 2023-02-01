@@ -1,5 +1,5 @@
 # Task list
-![Task list](public/OG.ico)
+![Task list](public/toDoList.ico)
 
 ### 
 - adding tasks
