@@ -5,13 +5,13 @@
 }
 
 .section__header {
-    border-bottom: 2px solid #ddd;
+    border-bottom: 1px solid #ddd;
 }
 
 .section__header--grid {
     display: grid;
     grid-template-columns: 1fr auto;
-    border-bottom: 2px solid #ddd ;
+    border-bottom: 1px solid #ddd ;
 }
 
 @media (max-width: 767px) {

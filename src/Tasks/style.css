@@ -10,7 +10,7 @@
     grid-gap: 10px;
     align-items: center;
     padding: 10px;
-    border-bottom: 2px solid #ddd;
+    border-bottom: 1px solid #ddd;
 }
 
 .task__item--hidden {
@@ -40,7 +40,7 @@
 }
 
 .task__button--done:active {
-    border: 2px solid hsl(0, 0%, 0%);
+    border: 1px solid hsl(0, 0%, 0%);
 }
 
 .task__button--remove {
@@ -53,5 +53,5 @@
 
 .task__button--remove:active {
     background-color: hsl(0, 95%, 30%);
-    border: 2px solid hsl(0, 0%, 0%);
+    border: 1px solid hsl(0, 0%, 0%);
 }
