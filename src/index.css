@@ -9,8 +9,5 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #eee;
-  margin: 0 auto;
-  padding: 20px;
-  max-width: 900px;
-  word-break: break-word;
+ 
 }

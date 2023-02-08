@@ -1,18 +1,17 @@
 .section {
-    margin: 10px 0;
-    background-color: hsl(0, 0%, 100%);
-    list-style:none;
-    box-shadow: 0 0 5px hsl(0, 0%, 87%)
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid rgb(196, 192, 192)
 }
 
 .section__header {
+    border-bottom: 1px solid rgb(180, 169, 169);
+}
+
+.section__header--grid {
     display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 20px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    border-bottom: 1px solid hsl(0, 0%, 90%);
+    grid-template-columns: 1fr auto;
+    border-bottom: 1px solid rgb(180, 169, 169) ;
 }
 
 @media (max-width: 767px) {
@@ -21,9 +20,10 @@
     }
 }
 
-.section__title {
+.section__header--title {
     margin: 0;
     font-size: 20px;
+    padding: 20px;
 }
 
 .section__body {
