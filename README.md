@@ -2,9 +2,14 @@
 ![Task list](toDoList.ico)
 
 ### 
-- adding tasks
-- removing
-- marking as done
+![image](https://user-images.githubusercontent.com/80458977/217529644-c0e04e50-d3cb-47af-ba35-067eb89e81a0.png)
+adding tasks
+
+![image](https://user-images.githubusercontent.com/80458977/217529677-88dd85df-25ba-4620-8376-3bc732c13e6b.png)
+removing
+
+![image](https://user-images.githubusercontent.com/80458977/217529691-0343afa9-4e17-47b9-8ab3-0eabe42959a6.png)
+marking as done
 
 ![ToDoList GIF](public/images/videoToDoList7.gif)
 
