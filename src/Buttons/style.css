@@ -24,7 +24,6 @@
 }
 
 .buttons__button:active {
-    border: 2px solid hsl(0, 0%, 0%);
     border-radius: 5px;
 }
 
