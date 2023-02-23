@@ -1,9 +1,8 @@
 import styled, { css } from "styled-components";
 
 export const Wrapper = styled.section`
-    background
     background-color: white;
-    border: 1px solid rgb(196, 192, 192) 
+    margin-bottom: 10px;
 `;
 
 export const Header = styled.header`
@@ -18,10 +17,11 @@ export const Header = styled.header`
 
     @media (max-width: 767px) {
         grid-template-columns: 1fr;
+        padding: 10px;
     }
 `;
 
-export const Title  = styled.h2`
+export const Title = styled.h2`
     margin: 0;
     font-size: 20px;
     padding: 20px;
