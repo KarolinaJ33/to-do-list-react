@@ -20,6 +20,8 @@ export const Item = styled.li`
 `;
 
 export const Content = styled.span`
+    word-break: break-word;
+
     ${({done}) => done && css`
         text-decoration: line-through;
     `}
