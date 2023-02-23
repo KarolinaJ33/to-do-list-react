@@ -13,6 +13,10 @@ export const Wrapper = styled.form`
 export const Input = styled.input`
     padding: 10px;
     border: 1px solid rgb 180, 169, 169;
+
+    @media (max-width: 767px) {
+        width: 100%;
+    }  
 `;
 
 export const Button = styled.button`
