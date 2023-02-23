@@ -1,2 +1,0 @@
-html{box-sizing:border-box}*,:after,:before{box-sizing:inherit}body{background-color:#eee;font-family:Montserrat,sans-serif}.buttons{display:flex;flex-wrap:wrap}.buttons__button{background:transparent;border:none;color:teal;cursor:pointer;margin:auto;transition:.5s}@media(max-width:767px){.buttons__button{flex-basis:100%;margin:10px}}.buttons__button:hover{color:#16bbbb}.buttons__button:active{border-radius:5px}.buttons__button:disabled{color:#ccc}
-/*# sourceMappingURL=main.720ea2e7.css.map*/
