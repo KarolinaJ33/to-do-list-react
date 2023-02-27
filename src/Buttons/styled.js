@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
 padding: 10px;
 
-@media(max-width: 767px) {
+@media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
          display: flex;
          flex-direction: column;
          align-items: center;
@@ -12,21 +12,22 @@ padding: 10px;
 
 export const Button = styled.button`
     background: transparent;
-    color: hsl(180, 100%, 25%);
+    color: ${({ theme }) => theme.color.teal};
     border: none;
     margin: auto;
     cursor: pointer;
-    transition: 0.5s;
+    transition: filter 0.3s;
 
-    &:hoover{
-     color: hsl(180, 79%, 41%);
+    &:hover{
+     filter: brightness(110%);
     }
 
     &:active{
-     color: hsl(180, 79%, 46%);  
+     filter: brightness(120%);  
     }
 
     &:disabled{
-     color: hsl(0, 0%, 80%);
+     color: ${({ theme }) => theme.color.silver};
+     cursor: not-allowed;
     }
 `;
