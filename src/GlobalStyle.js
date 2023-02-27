@@ -6,10 +6,11 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   *, ::after, ::before {
-box-sizing:inherit;
-}
+   box-sizing:inherit;
+  }
 
-body {
+  body {
     font-family: 'Montserrat', sans-serif;
-    background-color: ${({ theme })} => theme.color.gallery};
+    background-color: ${({ theme }) => theme.color.gallery};
+  }
 `;
