@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.c3cdcf05.css","mappings":"AAAA,KACC,qBACD,CAEA,iBACE,kBACF,CAEA,KAEE,qBAAsB,CADtB,iCAGF","sources":["index.css"],"sourcesContent":["html {\n box-sizing: border-box;\n}\n\n*, ::after, ::before {\n  box-sizing: inherit;\n}\n\nbody {\n  font-family: 'Montserrat', sans-serif;\n  background-color: #eee;\n \n}\n"],"names":[],"sourceRoot":""}
