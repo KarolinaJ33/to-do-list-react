@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-padding: 10px;
+    padding: 10px;
 
-@media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
          display: flex;
          flex-direction: column;
          align-items: center;
