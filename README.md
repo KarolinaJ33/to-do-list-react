@@ -32,9 +32,11 @@ After pressing 'Ukryj ukończone' selected tasks will disappear from the list.
 `HTML`
 `CSS (Grid, Flex, media queries)`
 `JavaScript ES6+`
+`Normalized.css`
 `Styled-components`
 `Theme Provider`
 `JSX`
+`Git`
 `Webpack`
 `Babel`
 
