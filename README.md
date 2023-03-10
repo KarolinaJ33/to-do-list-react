@@ -1,4 +1,4 @@
-# Task list
+# To Do List - React
 ![Task list](toDoList.ico)
 
 ### 
@@ -11,6 +11,7 @@ removing
 ![image](https://user-images.githubusercontent.com/80458977/217529691-0343afa9-4e17-47b9-8ab3-0eabe42959a6.png)
 marking as done
 
+# How it works task list
 ![ToDoList GIF](public/images/videoToDoList7.gif)
 
 # Enjoy
@@ -26,22 +27,16 @@ After pressing 'Ukryj ukończone' selected tasks will disappear from the list.
 
 # Technologies used
 `React.js`
+`Custom Hook (useEffect, useState, useRef)`
+`Local Storage`
 `HTML`
-`CSS in BEM Convention`
-`Grid`
-`Flexbox`
-`Transition`
-`Transform`
-`@media queries`
-`Pseudo classes`
-`JavaScript`
-`Arrow functions`
-`Callbacks`
-`Objects`
-`Arrays`
-`Immutability`
-`Node`
+`CSS (Grid, Flex, media queries)`
+`JavaScript ES6+`
+`Normalized.css`
+`Styled-components`
+`Theme Provider`
 `JSX`
+`Git`
 `Webpack`
 `Babel`
 
