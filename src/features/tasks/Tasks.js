@@ -8,40 +8,25 @@ import { Container } from "../../common/Container/styled";
 import { useTasks } from "../../useTasks";
 
 function Tasks() {
-  const {
-    hideDone,
-    //tasks,
-    toggleHideDone,
-    removeTask,
-    toggleTaskDone,
-    setAllDone,
-    addNewTask,
-  } = useTasks();
+    const {
+        hideDone,
+        //tasks,
+        removeTask,
+        setAllDone,
+    } = useTasks();
 
-  return (
-    <Container>
-      <Header title="Lista zadań" />
-      <Section
-        title="Dodaj nowe zadanie"
-        body={<Form addNewTask={addNewTask} />}
-      />
+    return (
+        <Container>
+            <Header title="Lista zadań" />
+            <Section title="Dodaj nowe zadanie" body={<Form />} />
 
-      <Section
-        title="Lista zadań"
-        body={
-          <TaskList
-            removeTask={removeTask}
-            toggleTaskDone={toggleTaskDone}
-          />
-        }
-        extraHeaderContent={
-          <Buttons
-            setAllDone={setAllDone}
-          />
-        }
-      />
-    </Container>
-  );
+            <Section
+                title="Lista zadań"
+                body={<TaskList removeTask={removeTask} />}
+                extraHeaderContent={<Buttons setAllDone={setAllDone} />}
+            />
+        </Container>
+    );
 }
 
 export default Tasks;
