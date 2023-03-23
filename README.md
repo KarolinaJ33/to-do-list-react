@@ -27,6 +27,8 @@ After pressing 'Ukryj ukończone' selected tasks will disappear from the list.
 
 # Technologies used
 `React.js`
+`Redux`
+`Redux Toolkit`
 `Custom Hook (useEffect, useState, useRef)`
 `Local Storage`
 `HTML`
