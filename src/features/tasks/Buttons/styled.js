@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-    padding: 10px;
+    padding: 20px;
 
     @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
          display: flex;
@@ -16,6 +16,7 @@ export const Button = styled.button`
     border: none;
     margin: auto;
     cursor: pointer;
+    padding: 10px;
     transition: filter 0.3s;
 
     &:hover{
