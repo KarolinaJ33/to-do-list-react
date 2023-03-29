@@ -12,5 +12,5 @@ function* fetchExampleTasksHandler() {
 }
 
 export function* watchFetchExampleTasks() {
-    yieldtakeEvery(fetchExampleTasks.type, fetchExampleTasksHandler);
+    yield takeEvery(fetchExampleTasks.type, fetchExampleTasksHandler);
 }
