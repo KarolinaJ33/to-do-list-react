@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { theme } from "../../../theme";
 
 export const StyledForm = styled.form`
   display: grid;
