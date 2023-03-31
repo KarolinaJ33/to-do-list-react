@@ -8,7 +8,7 @@ export default () => (
     <Container>
             <Header title="O autorze" />
             <Section title="Karolina Jasiówka" body={
-                <>
+                <Wrapper>
                 <p>
                     Cześć, miło Cię powitać🙂
                 </p>
@@ -23,7 +23,7 @@ export default () => (
              <p>
                 Ta aplikacja powstała w ramach kursu YouCode FrontEnd Developer. Aby zobaczyć więcej moich projektów zapraszam na stronę <a href="https://github.com/KarolinaJ33" target="_blank">GitHub</a>
              </p>
-             </>
+             </Wrapper>
             } 
             />
     </Container>
