@@ -15,29 +15,29 @@ const tasksSlice = createSlice({
             state.hideDone = !state.hideDone;
         },
         toggleTaskDone: ({ tasks }, { payload: taskId }) => {
-            const index = tasks.findIndex(( { id }) => id === taskId);
+            const index = tasks.findIndex(({ id }) => id === taskId);
             tasks[index].done = !tasks[index].done;
         },
         removeTask: ({ tasks }, { payload: taskId }) => {
-            const index = tasks.findIndex(( { index }) => index === taskId);
+            const index = tasks.findIndex(({ index }) => index === taskId);
             tasks.splice(index, 1);
         },
         setAllDone: (state) => {
             state.tasks.forEach((task) => {
-              task.done = true;
-            })
+                task.done = true;
+            });
         },
-        fetchExampleTasks: () => { },
+        fetchExampleTasks: () => {},
         setTasks: (state, { payload: tasks }) => {
             state.tasks = tasks;
-        }
+        },
     },
 });
 
-export const { 
+export const {
     addTask,
-    toggleHideDone, 
-    toggleTaskDone, 
+    toggleHideDone,
+    toggleTaskDone,
     removeTask,
     setAllDone,
     fetchExampleTasks,
@@ -49,6 +49,22 @@ const selectTasksState = (state) => state.tasks;
 export const selectTasks = (state) => selectTasksState(state).tasks;
 export const selectHideDone = (state) => selectTasksState(state).hideDone;
 export const selectAreTasksEmpty = (state) => selectTasks(state).lenght === 0;
-export const selectIsEveryTaskDone = (state) => selectTasks(state).every(({ done }) => done);
+export const selectIsEveryTaskDone = (state) =>
+    selectTasks(state).every(({ done }) => done);
+
+export const getTaskById = (state, taskId) =>
+    selectTasks(state).find(({ id }) => id === taskId);
+
+export const selectTasksByQuery = (state, query) => {
+    const tasks = selectTasks(state);
+
+    if (!query || query.trim() === "") {
+        return tasks;
+    }
+
+    return tasks.filter(({ content }) =>
+        content.tuUpperCase().includes(query.trim().toUpperCase())
+    );
+};
 
 export default tasksSlice.reducer;
