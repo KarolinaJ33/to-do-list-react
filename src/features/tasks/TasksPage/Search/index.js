@@ -17,7 +17,7 @@ export default () => {
             searchParams.set(searchQueryParamName, target.value);
         }
 
-        history.push(`${location.pathname}?${searchParams.toString}`);
+        history.push(`${location.pathname}?${searchParams.toString()}`);
     };
 
     return (
