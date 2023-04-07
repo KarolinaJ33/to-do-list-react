@@ -6,7 +6,9 @@ import searchQueryParamName from "../searchQueryParamName";
 export default () => {
     const location = useLocation();
     const history = useHistory();
-    const query = new URLSearchParams(location.search).get(searchQueryParamName);
+    const query = new URLSearchParams(location.search).get(
+        searchQueryParamName
+    );
 
     const onInputChange = ({ target }) => {
         const searchParams = new URLSearchParams(location.search);

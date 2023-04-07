@@ -33,6 +33,6 @@ const Buttons = () => {
             </Button>
         </ButtonsWrapper>
     );
-}
+};
 
 export default Buttons;

@@ -6,12 +6,19 @@ import {
     removeTask,
     selectHideDone,
 } from "../../tasksSlice";
-import { List, Item, Content, ToggleDoneButton, RemoveButton, StyledLink } from "./styled";
+import {
+    List,
+    Item,
+    Content,
+    ToggleDoneButton,
+    RemoveButton,
+    StyledLink,
+} from "./styled";
 
 export const TaskList = () => {
     const location = useLocation();
-    const query = (new URLSearchParams(location.search)).get("szukaj");
-    const tasks = useSelector(state => selectTasksByQuery(state, query));
+    const query = new URLSearchParams(location.search).get("szukaj");
+    const tasks = useSelector((state) => selectTasksByQuery(state, query));
     const hideDone = useSelector(selectHideDone);
 
     const dispatch = useDispatch();
@@ -27,7 +34,9 @@ export const TaskList = () => {
                         {task.done ? "✓" : ""}
                     </ToggleDoneButton>
                     <Content done={task.done}>
-                        <StyledLink to={`/zadania/${task.id}`}>{task.content}</StyledLink>
+                        <StyledLink to={`/zadania/${task.id}`}>
+                            {task.content}
+                        </StyledLink>
                     </Content>
                     <RemoveButton
                         remove

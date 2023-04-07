@@ -1,12 +1,12 @@
-import { useHistory, useLocation } from "react-router-dom"
+import { useHistory, useLocation } from "react-router-dom";
 
- export const useQueryParameter = (key) => {
+export const useQueryParameter = (key) => {
     const location = useLocation();
     const searchParams = new URLSearchParams(location.search);
     return searchParams.get(key);
- };
+};
 
- export const useReplaceQueryParameter = () => {
+export const useReplaceQueryParameter = () => {
     const location = useLocation();
     const history = useHistory();
 
@@ -22,4 +22,4 @@ import { useHistory, useLocation } from "react-router-dom"
         const newSearch = searchParams.toString();
         history.push(`${location.pathname}?${newSearch}`);
     };
- };
+};

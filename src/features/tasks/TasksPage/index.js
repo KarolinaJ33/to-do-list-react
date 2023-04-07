@@ -10,19 +10,14 @@ import FetchButton from "./FetchButton";
 function TasksPage() {
     return (
         <Container>
-            <Header 
-                 title="Lista zadań" 
-            />
-            <Section 
-                title="Dodaj nowe zadanie" 
-                extraHeaderContent={<FetchButton/>}
-                body={<Form />} 
+            <Header title="Lista zadań" />
+            <Section
+                title="Dodaj nowe zadanie"
+                extraHeaderContent={<FetchButton />}
+                body={<Form />}
             />
 
-            <Section 
-                title="Wyszukiwarka" 
-                body={<Search />} 
-            />
+            <Section title="Wyszukiwarka" body={<Search />} />
 
             <Section
                 title="Lista zadań"

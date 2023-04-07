@@ -70,4 +70,4 @@ export const StyledLink = styled(Link)`
     &:hover {
         filter: brightness(110%);
     }
-`
+`;
