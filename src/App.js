@@ -4,7 +4,7 @@ import TaskPage from "./features/tasks/TaskPage";
 import AuthorPage from "./features/author/AuthorPage";
 import { StyledNavLink, Navigation } from "./appStyled";
 
-const App =  () => (
+const App = () => (
     <HashRouter>
         <nav>
             <Navigation>
