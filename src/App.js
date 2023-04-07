@@ -9,12 +9,12 @@ export default () => (
         <nav>
             <Navigation>
                 <li>
-                    <StyledNavLink activeClassName="active" to="/zadania">
+                    <StyledNavLink to="/zadania">
                         Zadania
                     </StyledNavLink>
                 </li>
                 <li>
-                    <StyledNavLink activeClassName="active" to="/autor">
+                    <StyledNavLink  to="/autor">
                         O autorze
                     </StyledNavLink>
                 </li>
