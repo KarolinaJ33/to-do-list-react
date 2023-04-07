@@ -12,7 +12,7 @@ removing
 marking as done
 
 # How it works task list
-![ToDoList GIF](public/images/videoToDoList7.gif)
+![ToDoList GIF](public/images/videoToDoList.gif)
 
 # Enjoy
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
