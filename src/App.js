@@ -1,7 +1,7 @@
 import { HashRouter, Switch, Route, Redirect } from "react-router-dom";
 import TasksPage from "./features/tasks/TasksPage/index";
 import TaskPage from "./features/tasks/TaskPage";
-import AuthorPage from "./features/author/AuthorPage";
+import AuthorPage from "./features/AuthorPage";
 import { StyledNavLink, Navigation } from "./appStyled";
 
 const App = () => (
