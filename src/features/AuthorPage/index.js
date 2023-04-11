@@ -1,7 +1,6 @@
 import { Container } from "../../common/Container/styled";
 import Header from "../../common/Header";
 import Section from "../../common/Section";
-import { Wrapper } from "./styled";
 
 export default () => (
     <Container>
@@ -9,7 +8,7 @@ export default () => (
         <Section
             title="Karolina Jasiówka"
             body={
-                <Wrapper>
+                <>
                     <p>Cześć, miło Cię powitać🙂</p>
                     <p>
                         Interesuję się już od kilku lat zdrowym trybem życia -{" "}
@@ -35,7 +34,7 @@ export default () => (
                             GitHub
                         </a>
                     </p>
-                </Wrapper>
+                </>
             }
         />
     </Container>
