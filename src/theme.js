@@ -8,6 +8,7 @@ export const theme = {
         teal: "#008080",
         crimson: "#db143c",
         forestGreen: "#228c22",
+        aeroBlue: "#C9FFE5",
     },
     breakpoint: {
         mobileMax: 767, 

@@ -6,6 +6,11 @@ export const StyledNavLink = styled(NavLink)`
     text-decoration: none;
     color: ${({ theme }) => theme.color.white};
 
+    &:hover {
+        color: ${({ theme }) => theme.color.aeroBlue};
+        border-bottom: 1px solid;
+    }
+
     &.${activeClassName} {
         font-weight: bold;
     }
