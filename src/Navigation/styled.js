@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
-const activeClassName = "active";
 
 export const StyledNavLink = styled(NavLink)`
     text-decoration: none;
@@ -11,11 +10,11 @@ export const StyledNavLink = styled(NavLink)`
         border-bottom: 1px solid;
     }
 
-    &.${activeClassName} {
+    &.active {
         font-weight: bold;
     }
 `;
-export const Navigation = styled.ul`
+export const Nav = styled.ul`
     list-style: none;
     display: flex;
     justify-content: center;
