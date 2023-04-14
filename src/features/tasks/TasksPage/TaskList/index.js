@@ -1,5 +1,6 @@
 import { useSelector, useDispatch } from "react-redux";
 import { useLocation } from "react-router-dom";
+import { toTask } from "../../../../routes"; 
 import {
     selectTasksByQuery,
     toggleTaskDone,
@@ -34,7 +35,7 @@ export const TaskList = () => {
                         {task.done ? "✓" : ""}
                     </ToggleDoneButton>
                     <Content done={task.done}>
-                        <StyledLink to={`/zadania/${task.id}`}>
+                        <StyledLink to={toTask({ id: task.id})}>
                             {task.content}
                         </StyledLink>
                     </Content>
