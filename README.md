@@ -9,7 +9,16 @@ adding tasks
 removing
 
 ![image](https://user-images.githubusercontent.com/80458977/217529691-0343afa9-4e17-47b9-8ab3-0eabe42959a6.png)
-marking as done
+marking as done one, several or all
+
+![image](https://user-images.githubusercontent.com/80458977/217529691-0343afa9-4e17-47b9-8ab3-0eabe42959a6.png)
+hide all marked as done
+
+![image](https://user-images.githubusercontent.com/80458977/217529691-0343afa9-4e17-47b9-8ab3-0eabe42959a6.png)
+download sample tasks
+
+![image](https://user-images.githubusercontent.com/80458977/217529691-0343afa9-4e17-47b9-8ab3-0eabe42959a6.png)
+searching for a task
 
 # How it works task list
 ![ToDoList GIF](public/images/videoToDoList.gif)
@@ -23,7 +32,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 I have created a simply to do list.
 You can add tasks, mark as completed and remove from the list. 
 You can also mark as complete all the tasks by choosing 'Ukończ wszystkie'.
-After pressing 'Ukryj ukończone' selected tasks will disappear from the list.
+After pressing 'Ukryj ukończone' selected tasks will disappear from the list. You can also download sample tasks by 'Pobierz przykładowe zadania" or search for any task in the search engine.
 
 # Technologies used
 `React.js`
