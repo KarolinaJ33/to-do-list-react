@@ -36,16 +36,19 @@ After pressing 'Ukryj ukończone' selected tasks will disappear from the list. Y
 
 # Technologies used
 `React.js`
-`Redux`
+`React - Redux`
+`React - Ruter`
 `Redux Toolkit`
 `Custom Hook (useEffect, useState, useRef)`
 `Local Storage`
 `HTML`
-`CSS (Grid, Flex, media queries)`
+`BEM`
+`CSS (Grid, Flex, media queries, transition)`
 `JavaScript ES6+`
 `Normalized.css`
 `Styled-components`
 `Theme Provider`
+`GlobalStyles & Theme`
 `JSX`
 `Git`
 `Webpack`
