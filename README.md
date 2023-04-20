@@ -23,7 +23,7 @@ searching for a task
 # How it works
 ![ToDoList GIF](public/images/ToDoList.gif)
 
-# DEMO  [See To Do List](https://karolinaj33.github.io/to-do-list-react/)
+# DEMO  [See To Do List](https://karolinaj33.github.io/to-do-list-react/#/zadania/)
 
 # Description
 I have created a simply to do list.
