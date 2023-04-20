@@ -20,13 +20,10 @@ download sample tasks
 ![image](https://user-images.githubusercontent.com/80458977/217529691-0343afa9-4e17-47b9-8ab3-0eabe42959a6.png)
 searching for a task
 
-# How it works task list
+# How it works
 ![ToDoList GIF](public/images/ToDoList.gif)
 
-# Enjoy
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-# To Do List - demo
-[See To Do List](https://karolinaj33.github.io/to-do-list-react/)
+# DEMO  [See To Do List](https://karolinaj33.github.io/to-do-list-react/)
 
 # Description
 I have created a simply to do list.
@@ -54,6 +51,8 @@ After pressing 'Ukryj ukończone' selected tasks will disappear from the list. Y
 `Webpack`
 `Babel`
 
+## Enjoy
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
