@@ -21,7 +21,7 @@ download sample tasks
 searching for a task
 
 # How it works task list
-![ToDoList GIF](public/images/videoToDoList.gif)
+![ToDoList GIF](public/images/ToDoList.gif)
 
 # Enjoy
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
