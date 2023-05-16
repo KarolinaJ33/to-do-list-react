@@ -11,7 +11,7 @@ export const Header = styled.header`
     display: grid;
     grid-template-columns: 1fr auto;
     border-bottom: 1px solid #ddd;
-    align-item: center;
+    align-items: center;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         grid-template-columns: 1fr;
@@ -28,3 +28,4 @@ export const Title = styled.h2`
 export const Body = styled.div`
     padding: 20px;
 `;
+gchjbj
