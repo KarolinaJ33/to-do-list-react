@@ -17,6 +17,6 @@ const FetchButton = () => {
             </Button>
         </ButtonsWrapper>
     );
-}
+};
 
 export default FetchButton;

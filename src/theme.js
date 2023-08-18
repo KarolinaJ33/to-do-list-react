@@ -11,6 +11,6 @@ export const theme = {
         aeroBlue: "#C9FFE5",
     },
     breakpoint: {
-        mobileMax: 767, 
+        mobileMax: 767,
     },
 };
