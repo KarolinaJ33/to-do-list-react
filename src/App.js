@@ -19,7 +19,7 @@ const App = () => (
                 <AuthorPage />
             </Route>
             <Route path="/">
-                <Redirect to={toTask()} />
+                <Redirect to={toTasks()} />
             </Route>
         </Switch>
     </HashRouter>
