@@ -11,7 +11,7 @@ export default () => (
                 <>
                     <p>Cześć, miło Cię powitać🙂</p>
                     <p>
-                        Interesuję się już od kilku lat zdrowym trybem życia -{" "}dbaj o siebie. <b>W zdrowym ciele
+                        Interesuję się już od kilku lat zdrowym trybem życia - dbaj o siebie - <b> w zdrowym ciele
                         zdrowy duch</b>. <p>Chętnie korzystam z nowinek technologicznych jak ChatGPT.</p>
                     </p>
                     <p>
@@ -21,7 +21,7 @@ export default () => (
                         nartach. Ostatnio spodobało mi się żeglarstwo. Czas
                         spędzony po pracy / programowaniu na łonie natury jest
                         ceniony przeze mnie 😊 
-                        <p>Upichcić pyszne, pachnące ciasto  czy prace w ogrodzie również umilają mi wolne chwile.</p>
+                        <p>Upichcenie pysznego, pachnącego ciasta czy prace w ogrodzie również umilają mi wolne chwile.</p>
                     </p>
                     <p>
                         Ta aplikacja powstała w ramach kursu YouCode FrontEnd
