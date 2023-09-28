@@ -12,7 +12,7 @@ export default () => (
                     <p>Cześć, miło Cię powitać🙂</p>
                     <p>
                         Interesuję się już od kilku lat zdrowym trybem życia - dbaj o siebie - <b> w zdrowym ciele
-                        zdrowy duch</b>. <p>Chętnie korzystam z nowinek technologicznych jak ChatGPT.</p>
+                        zdrowy duch</b>. <p>Chętnie korzystam z nowinek technologicznych jak ChatGPT, Bard.</p>
                     </p>
                     <p>
                         {" "}
